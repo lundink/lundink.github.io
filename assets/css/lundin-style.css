@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+/* * { margin:0; padding:0; } */
+	
+body, html {
+    background: #202020;
+    color: #FFF;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.tools { 
+	margin:25px auto; 
+	width:960px; 
+	}
+.tools p {
+	margin-left:20px;
+	color:#FFF; 
+	font-family: 'Roboto', sans-serif; 
+	font-weight: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+h1 {
+	font: 124px/1 'Roboto', sans-serif;
+	text-align:center; 
+	margin:50px 0; 
+	font-weight: bold;
+	color:#FFF;
+	}
+h2 {
+    text-align:center;
+}
+h1 a:link { 
+	color:#FFF; 
+	}
+a:link,a:visited {
+	color:#777; 
+	outline:0 none;
+	}
+a:hover,a:active { 
+	color:#eee; 
+	outline:0 none; 
+	}
+table.list {
+    border-collapse: collapse;
+    border: 1px;
+    width: 50%;
+    margin: 30px auto 0;
+}
+
+table.list th, td {
+    text-align: center;
+    border: 0;
+    padding: 8px;
+}
+table.list td {
+    font-weight: normal;
+}
+
+table.list tr:nth-child(even){background-color: #444444}
+
+table.list th {
+    background-color: #386796;
+    color: white;
+}
+table.info {
+    border-collapse: collapse;
+    border: 1px;
+    width: 50%;
+    margin: 30px auto 0;
+    background-color: #444444;
+}
+
+table.info th, td {
+    text-align: center;
+    border: 5;
+    padding: 8px;
+}
+table.info td {
+    font-weight: normal;
+}
+
+table.info th {
+    background-color: #386796;
+    color: white;
+    white-space: nowrap;
+}
